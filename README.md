@@ -1,16 +1,76 @@
-# Resume_screening
-#AI based Resume Screening and Ranking.
+# 📄 AI Resume Screening & Candidate Ranking System  
 
-This project is a Streamlit-based AI-powered resume screening system that ranks candidates based on their resume's relevance to a given job description. It utilizes TF-IDF vectorization and cosine similarity to compare resumes against the job description, providing a ranking based on textual similarity.
+## 🚀 Overview  
+This is a **Streamlit-based AI-powered Resume Screening System** that ranks resumes based on their similarity to a given job description. It uses **TF-IDF Vectorization** and **Cosine Similarity** to compare resumes and provide a ranked list of candidates.  
 
-Features:
+---
 
-Upload multiple PDF resumes for analysis.
+## 🛠 Features  
+✅ Extracts text from PDF resumes.  
+✅ Preprocesses and cleans text for better matching.  
+✅ Uses **TF-IDF + Cosine Similarity** for ranking resumes.  
+✅ Displays match scores visually using progress bars.  
+✅ Allows downloading ranked results as a CSV file.  
 
-Enter a job description for comparison.
+---
 
-Uses NLP-based ranking to assess resume relevance.
+## 🖥️ Technologies Used  
+- **Python 3.x**  
+- **Streamlit** (for interactive UI)  
+- **PyPDF2** (for extracting text from PDFs)  
+- **Scikit-learn** (for text processing and similarity measurement)  
+- **Pandas** (for data handling)  
 
-Displays candidate scores in a ranked format.
+---
 
-This tool helps recruiters quickly identify the most relevant candidates, saving time and effort in the hiring process.
+## 📦 Installation  
+
+1️⃣ Clone this repository:  
+```bash
+git clone https://github.com/komal869/Resume_screening.git
+cd Resume_screening
+2️⃣ Install dependencies:
+
+pip install  requirements.txt
+3️⃣ Run the Streamlit app:
+
+streamlit run Resume_score.py
+📝 Usage
+1️⃣ Enter the Job Description in the provided text area.
+2️⃣ Upload multiple PDF resumes.
+3️⃣ The system extracts text, processes resumes, and ranks them.
+4️⃣ View ranked results with progress bars.
+5️⃣ Download ranked results as a CSV file.
+
+🏗️ Code Structure
+plaintext
+
+📁 Resume_screening
+│-- 📄 Resume_score.py  # Main Streamlit app
+│-- 📄 requirements.txt  # Dependencies
+│-- 📄 README.md  # Documentation
+
+
+
+🔥 Future Improvements
+Add OCR support for scanned PDFs using Tesseract.
+Improve parsing accuracy using NLP techniques.
+Integrate with ATS (Applicant Tracking Systems).
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repo and submit a PR.
+
+📜 License
+This project is MIT Licensed.
+
+💡 Built with ❤️ for better hiring decisions!
+
+
+
+
+
+
+
+
+
+
+
