@@ -1,36 +1,40 @@
-# 📄 AI Resume Screening & Candidate Ranking System  
+# 🚀  AI Resume Screening & Candidate Ranking System
 
 #link of app
 
 https://resumescreening-j7qr3265apprmbw4ur9vyfo.streamlit.app/
 
-## 🚀 Overview  
-This is a **Streamlit-based AI-powered Resume Screening System** that ranks resumes based on their similarity to a given job description. It uses **TF-IDF Vectorization** and **Cosine Similarity** to compare resumes and provide a ranked list of candidates.  
+## 🚀 Overview
+This is a **Streamlit-based AI-powered Resume Screening System** that ranks resumes based on their similarity to a given job description. It uses **TF-IDF Vectorization** and **Cosine Similarity** to match resumes and return a ranked list of applicants.
+
 
 ---
 
-## 🛠 Features  
-✅ Extracts text from PDF resumes.  
-✅ Preprocesses and cleans text for better matching.  
-✅ Uses **TF-IDF + Cosine Similarity** for ranking resumes.  
-✅ Displays match scores visually using progress bars.  
-✅ Allows downloading ranked results as a CSV file.  
+## 🛠 Features
+✅ Reads text from PDF resumes.
+✅ Preprocesses and cleans text for improved matching.
+✅ Ranks resumes using **TF-IDF + Cosine Similarity**.
+✅ Shows match scores visually with progress bars.
+✅ Enables downloading ranked results as a CSV file.
+
 
 ---
 
-## 🖥️ Technologies Used  
-- **Python 3.x**  
-- **Streamlit** (for interactive UI)  
-- **PyPDF2** (for extracting text from PDFs)  
-- **Scikit-learn** (for text processing and similarity measurement)  
-- **Pandas** (for data handling)  
+## 🖥️ Technologies Used
+- **Python 3.x**
+- **Streamlit** (for interactive UI)
+- **PyPDF2** (for extracting text from PDFs)
+- **Scikit-learn** (for text processing and similarity measurement)
+- **Pandas** (for data handling)
+
+
 
 ---
 
 ## 📦 Installation  
 
 1️⃣ Clone this repository:  
-```bash
+
 git clone https://github.com/komal869/Resume_screening.git
 cd Resume_screening
 2️⃣ Install dependencies:
